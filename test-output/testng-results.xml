@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4801" started-at="2018-05-23T10:15:56Z" finished-at="2018-05-23T10:16:01Z">
+  <suite name="Default suite" duration-ms="3844" started-at="2018-05-23T10:27:44Z" finished-at="2018-05-23T10:27:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4801" started-at="2018-05-23T10:15:56Z" finished-at="2018-05-23T10:16:01Z">
+    <test name="Default test" duration-ms="3844" started-at="2018-05-23T10:27:44Z" finished-at="2018-05-23T10:27:47Z">
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest">
-        <test-method status="PASS" signature="DatabaseTest()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest@bd213e]" name="DatabaseTest" duration-ms="4677" started-at="2018-05-23T10:15:56Z" finished-at="2018-05-23T10:16:01Z">
+        <test-method status="PASS" signature="DatabaseTest()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest@91e32e]" name="DatabaseTest" duration-ms="3772" started-at="2018-05-23T10:27:44Z" finished-at="2018-05-23T10:27:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DatabaseTest -->

@@ -36,9 +36,8 @@ public class ShareYourCampDatabaseTest {
 		        //Selecting the collection
 		        @SuppressWarnings("unchecked")
 				DBCollection collection = db.getCollection("users");
-		        BasicDBObject searchQuery = new BasicDBObject();
-		        searchQuery.get("username");
-		        DBCursor iterDoc = collection.find(searchQuery); 
+		        
+		        DBCursor iterDoc = collection.find(); 
 		        int i = 1; 
 
 		        // Getting the iterator 
