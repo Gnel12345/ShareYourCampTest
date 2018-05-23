@@ -7,8 +7,7 @@
         <methods>
           <include name="tearDownAfter"/>
           <include name="beforeClass"/>
-          <include name="verifyTitle"/>
-          <include name="navigateToLandingPage"/>
+          <include name="setData" invocation-numbers="0 1 2"/>
           <include name="setUpBefore"/>
         </methods>
       </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->

@@ -1,69 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31329" started-at="2018-05-22T10:53:40Z" finished-at="2018-05-22T10:54:12Z">
+  <suite name="Suite" duration-ms="104664" started-at="2018-05-23T07:52:23Z" finished-at="2018-05-23T07:54:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31329" started-at="2018-05-22T10:53:40Z" finished-at="2018-05-22T10:54:12Z">
+    <test name="Test" duration-ms="104664" started-at="2018-05-23T07:52:23Z" finished-at="2018-05-23T07:54:07Z">
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@a01e23]" name="beforeClass" is-config="true" duration-ms="97" started-at="2018-05-22T10:53:40Z" finished-at="2018-05-22T10:53:41Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="beforeClass" is-config="true" duration-ms="62" started-at="2018-05-23T07:52:23Z" finished-at="2018-05-23T07:52:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@a01e23]" name="setUpBefore" is-config="true" duration-ms="6244" started-at="2018-05-22T10:53:41Z" finished-at="2018-05-22T10:53:47Z">
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setUpBefore" is-config="true" duration-ms="7398" started-at="2018-05-23T07:52:23Z" finished-at="2018-05-23T07:52:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="FAIL" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@a01e23]" name="navigateToLandingPage" duration-ms="10935" started-at="2018-05-22T10:53:47Z" finished-at="2018-05-22T10:53:58Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest.navigateToLandingPage(ShareYourCampTest.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="navigateToLandingPage" duration-ms="14857" started-at="2018-05-23T07:52:30Z" finished-at="2018-05-23T07:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLandingPage -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@a01e23]" name="tearDownAfter" is-config="true" duration-ms="3825" started-at="2018-05-22T10:53:58Z" finished-at="2018-05-22T10:54:02Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="tearDownAfter" is-config="true" duration-ms="1" started-at="2018-05-23T07:52:45Z" finished-at="2018-05-23T07:52:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@a01e23]" name="setUpBefore" is-config="true" duration-ms="3545" started-at="2018-05-22T10:54:02Z" finished-at="2018-05-22T10:54:05Z">
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setUpBefore" is-config="true" duration-ms="2481" started-at="2018-05-23T07:52:45Z" finished-at="2018-05-23T07:52:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="FAIL" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@a01e23]" name="verifyTitle" duration-ms="5105" started-at="2018-05-22T10:54:05Z" finished-at="2018-05-22T10:54:10Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setData" duration-ms="11659" started-at="2018-05-23T07:52:47Z" data-provider="getData" finished-at="2018-05-23T07:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Signed in as George> but was:<Login>]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest.verifyTitle(ShareYourCampTest.java:48)
+              <![CDATA[java.lang.AssertionError: expected:<Signed in as George> but was:<Login>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest.setData(ShareYourCampTest.java:100)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -91,11 +76,169 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="tearDownAfter" is-config="true" duration-ms="1177" started-at="2018-05-23T07:52:59Z" finished-at="2018-05-23T07:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfter -->
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setUpBefore" is-config="true" duration-ms="2869" started-at="2018-05-23T07:53:00Z" finished-at="2018-05-23T07:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBefore -->
+        <test-method status="FAIL" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setData" duration-ms="12746" started-at="2018-05-23T07:53:03Z" data-provider="getData" finished-at="2018-05-23T07:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bobby]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Signed in as George> but was:<Login>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Signed in as George> but was:<Login>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest.setData(ShareYourCampTest.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="tearDownAfter" is-config="true" duration-ms="1350" started-at="2018-05-23T07:53:16Z" finished-at="2018-05-23T07:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfter -->
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setUpBefore" is-config="true" duration-ms="2727" started-at="2018-05-23T07:53:17Z" finished-at="2018-05-23T07:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBefore -->
+        <test-method status="FAIL" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setData" duration-ms="13643" started-at="2018-05-23T07:53:20Z" data-provider="getData" finished-at="2018-05-23T07:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Signed in as George> but was:<Login>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Signed in as George> but was:<Login>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest.setData(ShareYourCampTest.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="tearDownAfter" is-config="true" duration-ms="1370" started-at="2018-05-23T07:53:34Z" finished-at="2018-05-23T07:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfter -->
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setUpBefore" is-config="true" duration-ms="2801" started-at="2018-05-23T07:53:35Z" finished-at="2018-05-23T07:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBefore -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setData" duration-ms="15524" started-at="2018-05-23T07:53:38Z" data-provider="getData" finished-at="2018-05-23T07:53:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bobby]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="tearDownAfter" is-config="true" duration-ms="1" started-at="2018-05-23T07:53:53Z" finished-at="2018-05-23T07:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfter -->
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="setUpBefore" is-config="true" duration-ms="2643" started-at="2018-05-23T07:53:53Z" finished-at="2018-05-23T07:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBefore -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="verifyTitle" duration-ms="11266" started-at="2018-05-23T07:53:56Z" finished-at="2018-05-23T07:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@a01e23]" name="tearDownAfter" is-config="true" duration-ms="1489" started-at="2018-05-22T10:54:10Z" finished-at="2018-05-22T10:54:12Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@93abcc]" name="tearDownAfter" is-config="true" duration-ms="1" started-at="2018-05-23T07:54:07Z" finished-at="2018-05-23T07:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->

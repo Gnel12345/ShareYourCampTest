@@ -44,8 +44,7 @@ public abstract class BaseFramework {
 	protected WebDriver driver;
 	protected Wait<WebDriver> wait;
 	
-	protected static ExtentReports report = new ExtentReports("../ShareYourCampTest/Reports/reports.html");
-	protected static ExtentTest extentlogger = report.startTest("ShareYourCampTest");
+	
 	
 	private static final String CONFIG_FILE = "./conf/automation.properties";
 	private static final String DRIVER_FIREFOX = "firefox";
@@ -161,8 +160,7 @@ public abstract class BaseFramework {
 		
 		driver.quit();
 		driver = null;
-		report.endTest(extentlogger);
-		report.flush();
+		
 	}
 	
 	

@@ -10,11 +10,10 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 public abstract class BasePage extends BaseFramework {
 	
-	public BasePage(WebDriver driver, Wait<WebDriver> wait, ExtentReports report, ExtentTest extentlogger ) { 
+	public BasePage(WebDriver driver, Wait<WebDriver> wait ) { 
 		this.driver = driver;
 		this.wait = wait;
-		this.report = report;
-		this.extentlogger = extentlogger;
+		
 		
 		PageFactory.initElements(driver, this);
 	}
