@@ -11,6 +11,8 @@ public class LoginPage extends BasePage {
 	public By UserNameTextBox;
 	public By PasswordTextBox;
 	public By LoginButton;
+	public By SignUp;
+	
 	
 
 	public LoginPage(WebDriver driver, Wait<WebDriver> wait) {
@@ -18,6 +20,7 @@ public class LoginPage extends BasePage {
 		UserNameTextBox = By.cssSelector("body > form > input[type=text]:nth-child(1)");
 		PasswordTextBox = By.cssSelector("body > form > input[type=password]:nth-child(2)");
 		LoginButton = By.cssSelector("body > form > input[type=submit]:nth-child(3)");
+		SignUp = By.id("signUp");
 	}
 	
 	public WebElement onUserNameTextBox() throws Exception{
@@ -45,5 +48,12 @@ public class LoginPage extends BasePage {
 	}
 	}
 	
+	public WebElement onSignUp() throws Exception{
+		try{
+			return driver.findElement(SignUp);
+		}catch(Exception e){
+			throw e;
+		}
+	}	
 
 }

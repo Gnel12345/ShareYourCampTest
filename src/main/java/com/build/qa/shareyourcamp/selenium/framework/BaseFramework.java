@@ -3,8 +3,6 @@ package com.build.qa.shareyourcamp.selenium.framework;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -125,10 +123,10 @@ public abstract class BaseFramework {
 			androidCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
 			 
 			// Set the device name as well (you can give any name)
-			androidCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Demo");
+			androidCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Motorola Moto X");
 			 
 			 // set the android version as well 
-			androidCapabilities.setCapability(MobileCapabilityType.VERSION,"7.0");
+			androidCapabilities.setCapability(MobileCapabilityType.VERSION,"4.4.4");
 			 
 			 // Create object of URL class and specify the appium server address
 			 URL url= new URL("http://127.0.0.1:4723/wd/hub");

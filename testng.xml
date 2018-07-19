@@ -5,6 +5,7 @@
     <classes>
     <class name="com.build.qa.shareyourcamp.selenium.framework.BaseFramework"/>
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

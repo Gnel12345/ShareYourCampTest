@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3844" started-at="2018-05-23T10:27:44Z" finished-at="2018-05-23T10:27:47Z">
+  <suite name="Default suite" duration-ms="67277" started-at="2018-07-18T20:32:17Z" finished-at="2018-07-18T20:33:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3844" started-at="2018-05-23T10:27:44Z" finished-at="2018-05-23T10:27:47Z">
-      <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest">
-        <test-method status="PASS" signature="DatabaseTest()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest@91e32e]" name="DatabaseTest" duration-ms="3772" started-at="2018-05-23T10:27:44Z" finished-at="2018-05-23T10:27:47Z">
+    <test name="Default test" duration-ms="67277" started-at="2018-07-18T20:32:17Z" finished-at="2018-07-18T20:33:25Z">
+      <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="beforeClass" is-config="true" duration-ms="33" started-at="2018-07-18T20:32:17Z" finished-at="2018-07-18T20:32:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DatabaseTest -->
-      </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="setUpBefore" is-config="true" duration-ms="6452" started-at="2018-07-18T20:32:17Z" finished-at="2018-07-18T20:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBefore -->
+        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="navigateToLandingPage" duration-ms="21449" started-at="2018-07-18T20:32:24Z" finished-at="2018-07-18T20:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLandingPage -->
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="tearDownAfter" is-config="true" duration-ms="1" started-at="2018-07-18T20:32:45Z" finished-at="2018-07-18T20:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfter -->
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="setUpBefore" is-config="true" duration-ms="3343" started-at="2018-07-18T20:32:45Z" finished-at="2018-07-18T20:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBefore -->
+        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="verifyDropDown" duration-ms="16973" started-at="2018-07-18T20:32:49Z" finished-at="2018-07-18T20:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropDown -->
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="tearDownAfter" is-config="true" duration-ms="0" started-at="2018-07-18T20:33:06Z" finished-at="2018-07-18T20:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfter -->
+        <test-method status="PASS" signature="setUpBefore()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="setUpBefore" is-config="true" duration-ms="3515" started-at="2018-07-18T20:33:06Z" finished-at="2018-07-18T20:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBefore -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="verifyTitle" duration-ms="15463" started-at="2018-07-18T20:33:09Z" finished-at="2018-07-18T20:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d40a57]" name="tearDownAfter" is-config="true" duration-ms="0" started-at="2018-07-18T20:33:25Z" finished-at="2018-07-18T20:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfter -->
+      </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

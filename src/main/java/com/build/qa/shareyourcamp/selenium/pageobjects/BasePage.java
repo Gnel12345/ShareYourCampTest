@@ -5,8 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Wait;
 
 import com.build.qa.shareyourcamp.selenium.framework.BaseFramework;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+
 
 public abstract class BasePage extends BaseFramework {
 	

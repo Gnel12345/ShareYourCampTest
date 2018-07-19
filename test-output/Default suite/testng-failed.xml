@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest">
+      <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
         <methods>
-          <include name="DatabaseTest"/>
+          <include name="tearDownAfter"/>
+          <include name="beforeClass"/>
+          <include name="setData" invocation-numbers="0 1 2"/>
+          <include name="setUpBefore"/>
         </methods>
-      </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampDatabaseTest -->
+      </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
