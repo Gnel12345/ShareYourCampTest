@@ -23,7 +23,7 @@ public class ShareYourCampTest extends BaseFramework{
 	//ExtentTest extentlogger;
 	
 	WebElement element = null; 
-	
+	//Opens Browser and navigates to Landing Page
 	@Test
 	public void navigateToLandingPage() throws Exception{
 		 
@@ -41,7 +41,7 @@ public class ShareYourCampTest extends BaseFramework{
 		//report.flush();
 		driver.quit();
 	}
-	
+	//opens browser, navigates to Landing Page, navigates to Home Page and verifies the title
 	@Test
 	public void verifyTitle() throws Exception{
 		//extentlogger =report.startTest("Verfiy Title Test");
@@ -64,7 +64,7 @@ public class ShareYourCampTest extends BaseFramework{
 		//report.flush();
 		driver.quit();
 	}
-	
+	//opens browser, navigates to Landing Page, navigates to Home Page and verifies the dropdown works 
 	@Test
 	public void verifyDropDown() throws Exception{
 		//extentlogger =report.startTest("Verfiy Drop Down Test");

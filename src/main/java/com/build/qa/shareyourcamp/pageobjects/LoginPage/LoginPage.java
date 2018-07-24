@@ -17,10 +17,10 @@ public class LoginPage extends BasePage {
 
 	public LoginPage(WebDriver driver, Wait<WebDriver> wait) {
 		super(driver, wait);
-		UserNameTextBox = By.cssSelector("body > form > input[type=text]:nth-child(1)");
-		PasswordTextBox = By.cssSelector("body > form > input[type=password]:nth-child(2)");
-		LoginButton = By.cssSelector("body > form > input[type=submit]:nth-child(3)");
-		SignUp = By.id("signUp");
+		UserNameTextBox = By.cssSelector(utilities.ObjectRepositiory.LoginUser);
+		PasswordTextBox = By.cssSelector(utilities.ObjectRepositiory.LoginPass);
+		LoginButton = By.cssSelector(utilities.ObjectRepositiory.LoginButton);
+		SignUp = By.id(utilities.ObjectRepositiory.SignUp);
 	}
 	
 	public WebElement onUserNameTextBox() throws Exception{

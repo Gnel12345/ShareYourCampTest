@@ -12,6 +12,8 @@ import com.build.qa.shareyourcamp.selenium.pageobjects.BasePage;
 
 import com.build.qa.shareyourcamp.selenium.pageobjects.landingpage.LandingPage;
 
+import utilities.ObjectRepositiory;
+
 
 public class LandingPage extends BasePage {
 	public By LandingPageButton;
@@ -26,14 +28,14 @@ public class LandingPage extends BasePage {
 	
 	public LandingPage(WebDriver driver, Wait<WebDriver> wait) {
 		super(driver, wait);
-		LandingPageButton=By.cssSelector("#landing-header > a");
-		Title = By.cssSelector("body > nav > div > div.navbar-header > a");
-		SignUp = By.cssSelector("body > nav > div > div.collapse.navbar-collapse > ul > li:nth-child(2) > a");
-		Login = By.cssSelector("body > nav > div > div.collapse.navbar-collapse > ul > li:nth-child(1) > a");
-		LoginText = By.cssSelector("body > nav > div > div.collapse.navbar-collapse > ul > li:nth-child(1) > a");
-		addCampground = By.id("add Campground");
-		Campgroundsbtn = By.cssSelector("#con > div > button");
-		Campgrounds2nd = By.cssSelector("#myDropdown > a:nth-child(2)");
+		LandingPageButton=By.cssSelector(utilities.ObjectRepositiory.LandingPageButton);
+		Title = By.cssSelector(utilities.ObjectRepositiory.LandingPageTitle);
+		SignUp = By.cssSelector(utilities.ObjectRepositiory.LandingPageSignUpButton);
+		Login = By.cssSelector(utilities.ObjectRepositiory.LandingPageLoginButton);
+		LoginText = By.cssSelector(utilities.ObjectRepositiory.LandingPageLoginText);
+		addCampground = By.id(utilities.ObjectRepositiory.LandingPageAddCampground);
+		Campgroundsbtn = By.cssSelector(utilities.ObjectRepositiory.LandingPageCampgroundsbtn);
+		Campgrounds2nd = By.cssSelector(utilities.ObjectRepositiory.LandingPageCampgroundsbtn2nd);
 	}
 
 		

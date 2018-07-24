@@ -16,9 +16,9 @@ public class SignUpPage extends BasePage{
 
 	public SignUpPage(WebDriver driver, Wait<WebDriver> wait) {
 		super(driver, wait);
-		UserNameTextBox = By.id("user");
-		PasswordTextBox = By.id("pass");
-		SignUpButton = By.cssSelector("body > form > button");
+		UserNameTextBox = By.id(utilities.ObjectRepositiory.SignUpUser);
+		PasswordTextBox = By.id(utilities.ObjectRepositiory.SignUpPass);
+		SignUpButton = By.cssSelector(utilities.ObjectRepositiory.SignUpButton);
 	}
 	public WebElement onUserNameTextBox() throws Exception{
 		try{
