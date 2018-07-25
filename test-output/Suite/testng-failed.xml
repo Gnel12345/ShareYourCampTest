@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
         <methods>
@@ -9,10 +10,51 @@
           <include name="verifyDropDown"/>
           <include name="beforeClass"/>
           <include name="verifyTitle"/>
-          <include name="navigateToLandingPage"/>
           <include name="setUpBefore"/>
         </methods>
       </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
+        <methods>
+          <include name="tearDownAfter"/>
+          <include name="verifyDropDown"/>
+          <include name="beforeClass"/>
+          <include name="verifyTitle"/>
+          <include name="setUpBefore"/>
+        </methods>
+      </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
+        <methods>
+          <include name="tearDownAfter"/>
+          <include name="verifyDropDown"/>
+          <include name="beforeClass"/>
+          <include name="verifyTitle"/>
+          <include name="setUpBefore"/>
+        </methods>
+      </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+  <test thread-count="5" name="OperaTest(failed)">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
+        <methods>
+          <include name="tearDownAfter"/>
+          <include name="verifyDropDown"/>
+          <include name="beforeClass"/>
+          <include name="verifyTitle"/>
+          <include name="setUpBefore"/>
+        </methods>
+      </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

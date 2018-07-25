@@ -39,7 +39,7 @@ public class ShareYourCampTest extends BaseFramework{
 		
 		//report.removeTest(extentlogger);
 		//report.flush();
-		driver.quit();
+		tearDownAfter();
 	}
 	//opens browser, navigates to Landing Page, navigates to Home Page and verifies the title
 	@Test
@@ -62,7 +62,7 @@ public class ShareYourCampTest extends BaseFramework{
 		//extentlogger.log(LogStatus.INFO,expectedText);		
 		//report.endTest(extentlogger);
 		//report.flush();
-		driver.quit();
+		tearDownAfter();
 	}
 	//opens browser, navigates to Landing Page, navigates to Home Page and verifies the dropdown works 
 	@Test
@@ -89,7 +89,7 @@ public class ShareYourCampTest extends BaseFramework{
 		
 		//report.endTest(extentlogger);
 		//report.flush();
-		driver.quit();
+		tearDownAfter();
 		
 	}
 }

@@ -2,7 +2,7 @@ package com.build.qa.shareyourcamp.selenium.framework;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
+import org.testng.annotations.Parameters;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -45,19 +45,18 @@ public abstract class BaseFramework {
 	
 	
 	private static final String CONFIG_FILE = "./conf/automation.properties";
-	private static final String DRIVER_FIREFOX = "firefox";
-	private static final String DRIVER_CHROME = "chrome";
-	private static final String DRIVER_IE = "ie";
-	private static final String DRIVER_OPERA = "opera";
+	
 	private static final String Android = "android";
 	
 	private static Properties configuration;
 
-
+	
+	
 
 
 	@Rule
 	public final   JUnitSoftAssertions softly = new JUnitSoftAssertions();
+	
 	
 	@BeforeClass
 	public static void beforeClass() throws IOException {
@@ -69,20 +68,21 @@ public abstract class BaseFramework {
 		configuration.loadFromXML(input);
 		input.close();
 	}
-	
+	@Parameters("browser")
 	@BeforeMethod
 	@SuppressWarnings({ "deprecation", "rawtypes" })
-	public void setUpBefore() throws MalformedURLException  {
+	
+	public void setUpBefore(String browser) throws MalformedURLException  {
 		DesiredCapabilities capabilities;
 		// Which driver to use? 
-		if (DRIVER_CHROME.equalsIgnoreCase(configuration.getProperty("BROWSER"))){
+		if (browser.equalsIgnoreCase("chrome")){
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-notifications");
 			File file = new File("driver/chromedriver.exe");
 			 System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		
 			driver = new ChromeDriver(options);
-		} if  (DRIVER_FIREFOX.equalsIgnoreCase(configuration.getProperty("BROWSER"))) {
+		} if  (browser.equalsIgnoreCase("firefox")) {
 			capabilities = DesiredCapabilities.firefox();
 			File file = new File("driver/geckodriver.exe");
 			System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
@@ -93,12 +93,12 @@ public abstract class BaseFramework {
 			firefoxProfile.setPreference("dom.webnotifications.enabled", false);
 		 	driver = new FirefoxDriver(ffBinary);
 			
-		}if (DRIVER_IE.equalsIgnoreCase(configuration.getProperty("BROWSER"))){
+		}if (browser.equalsIgnoreCase("ie")){
 			File file = new File("driver/IEDriverServer.exe");
 			System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 			
 			driver = new InternetExplorerDriver();
-		}if (DRIVER_OPERA.equalsIgnoreCase(configuration.getProperty("BROWSER"))){
+		}if (browser.equalsIgnoreCase("opera")){
 			OperaOptions op= new OperaOptions();
 		    op.setBinary("C:\\Program Files\\Opera\\launcher.exe"); 
 		    op.addArguments("--disable-notifications");
