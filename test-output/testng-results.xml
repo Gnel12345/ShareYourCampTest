@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="260991" started-at="2018-07-25T05:46:58Z" finished-at="2018-07-25T05:51:19Z">
+  <suite name="Suite" duration-ms="215294" started-at="2018-07-25T06:10:43Z" finished-at="2018-07-25T06:14:18Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="61582" started-at="2018-07-25T05:46:58Z" finished-at="2018-07-25T05:47:59Z">
+    <test name="ChromeTest" duration-ms="47847" started-at="2018-07-25T06:10:43Z" finished-at="2018-07-25T06:11:30Z">
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="beforeClass" is-config="true" duration-ms="195" started-at="2018-07-25T05:46:58Z" finished-at="2018-07-25T05:46:58Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="beforeClass" is-config="true" duration-ms="285" started-at="2018-07-25T06:10:43Z" finished-at="2018-07-25T06:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="setUpBefore" is-config="true" duration-ms="7037" started-at="2018-07-25T05:46:58Z" finished-at="2018-07-25T05:47:05Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="setUpBefore" is-config="true" duration-ms="8330" started-at="2018-07-25T06:10:43Z" finished-at="2018-07-25T06:10:51Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="navigateToLandingPage" duration-ms="14427" started-at="2018-07-25T05:47:05Z" finished-at="2018-07-25T05:47:19Z">
+        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="navigateToLandingPage" duration-ms="9657" started-at="2018-07-25T06:10:51Z" finished-at="2018-07-25T06:11:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLandingPage -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="tearDownAfter" is-config="true" duration-ms="298" started-at="2018-07-25T05:47:19Z" finished-at="2018-07-25T05:47:20Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="tearDownAfter" is-config="true" duration-ms="272" started-at="2018-07-25T06:11:01Z" finished-at="2018-07-25T06:11:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="setUpBefore" is-config="true" duration-ms="3281" started-at="2018-07-25T05:47:20Z" finished-at="2018-07-25T05:47:23Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="setUpBefore" is-config="true" duration-ms="3809" started-at="2018-07-25T06:11:01Z" finished-at="2018-07-25T06:11:05Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="verifyDropDown" duration-ms="21362" started-at="2018-07-25T05:47:23Z" finished-at="2018-07-25T05:47:44Z">
+        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="verifyDropDown" duration-ms="10543" started-at="2018-07-25T06:11:05Z" finished-at="2018-07-25T06:11:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDropDown -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="tearDownAfter" is-config="true" duration-ms="169" started-at="2018-07-25T05:47:44Z" finished-at="2018-07-25T05:47:44Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="tearDownAfter" is-config="true" duration-ms="114" started-at="2018-07-25T06:11:16Z" finished-at="2018-07-25T06:11:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="setUpBefore" is-config="true" duration-ms="3821" started-at="2018-07-25T05:47:44Z" finished-at="2018-07-25T05:47:48Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="setUpBefore" is-config="true" duration-ms="3216" started-at="2018-07-25T06:11:16Z" finished-at="2018-07-25T06:11:19Z">
           <params>
             <param index="0">
               <value>
@@ -60,23 +60,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="verifyTitle" duration-ms="10777" started-at="2018-07-25T05:47:48Z" finished-at="2018-07-25T05:47:59Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="verifyTitle" duration-ms="11459" started-at="2018-07-25T06:11:19Z" finished-at="2018-07-25T06:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="tearDownAfter" is-config="true" duration-ms="143" started-at="2018-07-25T05:47:59Z" finished-at="2018-07-25T05:47:59Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1e18270]" name="tearDownAfter" is-config="true" duration-ms="82" started-at="2018-07-25T06:11:30Z" finished-at="2018-07-25T06:11:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
       </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
     </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="72699" started-at="2018-07-25T05:47:59Z" finished-at="2018-07-25T05:49:12Z">
+    <test name="FirefoxTest" duration-ms="77077" started-at="2018-07-25T06:11:31Z" finished-at="2018-07-25T06:12:48Z">
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="beforeClass" is-config="true" duration-ms="8" started-at="2018-07-25T05:47:59Z" finished-at="2018-07-25T05:47:59Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="beforeClass" is-config="true" duration-ms="6" started-at="2018-07-25T06:11:31Z" finished-at="2018-07-25T06:11:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="setUpBefore" is-config="true" duration-ms="8881" started-at="2018-07-25T05:47:59Z" finished-at="2018-07-25T05:48:08Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="setUpBefore" is-config="true" duration-ms="9637" started-at="2018-07-25T06:11:31Z" finished-at="2018-07-25T06:11:40Z">
           <params>
             <param index="0">
               <value>
@@ -87,15 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="navigateToLandingPage" duration-ms="10670" started-at="2018-07-25T05:48:08Z" finished-at="2018-07-25T05:48:19Z">
+        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="navigateToLandingPage" duration-ms="23811" started-at="2018-07-25T06:11:40Z" finished-at="2018-07-25T06:12:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLandingPage -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="tearDownAfter" is-config="true" duration-ms="22" started-at="2018-07-25T05:48:19Z" finished-at="2018-07-25T05:48:19Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="tearDownAfter" is-config="true" duration-ms="32" started-at="2018-07-25T06:12:04Z" finished-at="2018-07-25T06:12:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="setUpBefore" is-config="true" duration-ms="8879" started-at="2018-07-25T05:48:19Z" finished-at="2018-07-25T05:48:28Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="setUpBefore" is-config="true" duration-ms="8582" started-at="2018-07-25T06:12:04Z" finished-at="2018-07-25T06:12:13Z">
           <params>
             <param index="0">
               <value>
@@ -106,15 +106,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="verifyDropDown" duration-ms="12730" started-at="2018-07-25T05:48:28Z" finished-at="2018-07-25T05:48:40Z">
+        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="verifyDropDown" duration-ms="13485" started-at="2018-07-25T06:12:13Z" finished-at="2018-07-25T06:12:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDropDown -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="tearDownAfter" is-config="true" duration-ms="15" started-at="2018-07-25T05:48:40Z" finished-at="2018-07-25T05:48:40Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="tearDownAfter" is-config="true" duration-ms="24" started-at="2018-07-25T06:12:26Z" finished-at="2018-07-25T06:12:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="setUpBefore" is-config="true" duration-ms="10439" started-at="2018-07-25T05:48:40Z" finished-at="2018-07-25T05:48:51Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="setUpBefore" is-config="true" duration-ms="9202" started-at="2018-07-25T06:12:26Z" finished-at="2018-07-25T06:12:35Z">
           <params>
             <param index="0">
               <value>
@@ -125,23 +125,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="verifyTitle" duration-ms="21029" started-at="2018-07-25T05:48:51Z" finished-at="2018-07-25T05:49:12Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="verifyTitle" duration-ms="12274" started-at="2018-07-25T06:12:35Z" finished-at="2018-07-25T06:12:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="tearDownAfter" is-config="true" duration-ms="12" started-at="2018-07-25T05:49:12Z" finished-at="2018-07-25T05:49:12Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@15bfd87]" name="tearDownAfter" is-config="true" duration-ms="10" started-at="2018-07-25T06:12:48Z" finished-at="2018-07-25T06:12:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
       </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
     </test> <!-- FirefoxTest -->
-    <test name="IETest" duration-ms="63220" started-at="2018-07-25T05:49:12Z" finished-at="2018-07-25T05:50:15Z">
+    <test name="IETest" duration-ms="47095" started-at="2018-07-25T06:12:48Z" finished-at="2018-07-25T06:13:35Z">
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="beforeClass" is-config="true" duration-ms="9" started-at="2018-07-25T05:49:12Z" finished-at="2018-07-25T05:49:12Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="beforeClass" is-config="true" duration-ms="6" started-at="2018-07-25T06:12:48Z" finished-at="2018-07-25T06:12:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="setUpBefore" is-config="true" duration-ms="3448" started-at="2018-07-25T05:49:12Z" finished-at="2018-07-25T05:49:15Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="setUpBefore" is-config="true" duration-ms="3772" started-at="2018-07-25T06:12:48Z" finished-at="2018-07-25T06:12:51Z">
           <params>
             <param index="0">
               <value>
@@ -152,15 +152,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="navigateToLandingPage" duration-ms="14983" started-at="2018-07-25T05:49:15Z" finished-at="2018-07-25T05:49:30Z">
+        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="navigateToLandingPage" duration-ms="10630" started-at="2018-07-25T06:12:51Z" finished-at="2018-07-25T06:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLandingPage -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="tearDownAfter" is-config="true" duration-ms="71" started-at="2018-07-25T05:49:30Z" finished-at="2018-07-25T05:49:30Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="tearDownAfter" is-config="true" duration-ms="93" started-at="2018-07-25T06:13:02Z" finished-at="2018-07-25T06:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="setUpBefore" is-config="true" duration-ms="3231" started-at="2018-07-25T05:49:30Z" finished-at="2018-07-25T05:49:34Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="setUpBefore" is-config="true" duration-ms="3861" started-at="2018-07-25T06:13:02Z" finished-at="2018-07-25T06:13:06Z">
           <params>
             <param index="0">
               <value>
@@ -171,15 +171,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="verifyDropDown" duration-ms="25060" started-at="2018-07-25T05:49:34Z" finished-at="2018-07-25T05:49:59Z">
+        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="verifyDropDown" duration-ms="14042" started-at="2018-07-25T06:13:06Z" finished-at="2018-07-25T06:13:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDropDown -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="tearDownAfter" is-config="true" duration-ms="71" started-at="2018-07-25T05:49:59Z" finished-at="2018-07-25T05:49:59Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="tearDownAfter" is-config="true" duration-ms="77" started-at="2018-07-25T06:13:20Z" finished-at="2018-07-25T06:13:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="setUpBefore" is-config="true" duration-ms="3133" started-at="2018-07-25T05:49:59Z" finished-at="2018-07-25T05:50:02Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="setUpBefore" is-config="true" duration-ms="3129" started-at="2018-07-25T06:13:20Z" finished-at="2018-07-25T06:13:23Z">
           <params>
             <param index="0">
               <value>
@@ -190,23 +190,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="verifyTitle" duration-ms="13185" started-at="2018-07-25T05:50:02Z" finished-at="2018-07-25T05:50:15Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="verifyTitle" duration-ms="11417" started-at="2018-07-25T06:13:23Z" finished-at="2018-07-25T06:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="tearDownAfter" is-config="true" duration-ms="13" started-at="2018-07-25T05:50:15Z" finished-at="2018-07-25T05:50:15Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@1d7741f]" name="tearDownAfter" is-config="true" duration-ms="47" started-at="2018-07-25T06:13:35Z" finished-at="2018-07-25T06:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
       </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->
     </test> <!-- IETest -->
-    <test name="OperaTest" duration-ms="63364" started-at="2018-07-25T05:50:15Z" finished-at="2018-07-25T05:51:19Z">
+    <test name="OperaTest" duration-ms="42999" started-at="2018-07-25T06:13:35Z" finished-at="2018-07-25T06:14:18Z">
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="beforeClass" is-config="true" duration-ms="10" started-at="2018-07-25T05:50:15Z" finished-at="2018-07-25T05:50:15Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="beforeClass" is-config="true" duration-ms="13" started-at="2018-07-25T06:13:35Z" finished-at="2018-07-25T06:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="setUpBefore" is-config="true" duration-ms="4209" started-at="2018-07-25T05:50:15Z" finished-at="2018-07-25T05:50:19Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="setUpBefore" is-config="true" duration-ms="4030" started-at="2018-07-25T06:13:35Z" finished-at="2018-07-25T06:13:39Z">
           <params>
             <param index="0">
               <value>
@@ -217,15 +217,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="navigateToLandingPage" duration-ms="18969" started-at="2018-07-25T05:50:19Z" finished-at="2018-07-25T05:50:38Z">
+        <test-method status="PASS" signature="navigateToLandingPage()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="navigateToLandingPage" duration-ms="15499" started-at="2018-07-25T06:13:39Z" finished-at="2018-07-25T06:13:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLandingPage -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="tearDownAfter" is-config="true" duration-ms="195" started-at="2018-07-25T05:50:38Z" finished-at="2018-07-25T05:50:39Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="tearDownAfter" is-config="true" duration-ms="162" started-at="2018-07-25T06:13:54Z" finished-at="2018-07-25T06:13:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="setUpBefore" is-config="true" duration-ms="4262" started-at="2018-07-25T05:50:39Z" finished-at="2018-07-25T05:50:43Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="setUpBefore" is-config="true" duration-ms="2081" started-at="2018-07-25T06:13:55Z" finished-at="2018-07-25T06:13:57Z">
           <params>
             <param index="0">
               <value>
@@ -236,15 +236,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="verifyDropDown" duration-ms="18460" started-at="2018-07-25T05:50:43Z" finished-at="2018-07-25T05:51:01Z">
+        <test-method status="PASS" signature="verifyDropDown()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="verifyDropDown" duration-ms="8567" started-at="2018-07-25T06:13:57Z" finished-at="2018-07-25T06:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDropDown -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="tearDownAfter" is-config="true" duration-ms="23" started-at="2018-07-25T05:51:01Z" finished-at="2018-07-25T05:51:01Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="tearDownAfter" is-config="true" duration-ms="26" started-at="2018-07-25T06:14:05Z" finished-at="2018-07-25T06:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->
-        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="setUpBefore" is-config="true" duration-ms="3546" started-at="2018-07-25T05:51:01Z" finished-at="2018-07-25T05:51:05Z">
+        <test-method status="PASS" signature="setUpBefore(java.lang.String)[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="setUpBefore" is-config="true" duration-ms="3366" started-at="2018-07-25T06:14:05Z" finished-at="2018-07-25T06:14:09Z">
           <params>
             <param index="0">
               <value>
@@ -255,11 +255,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBefore -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="verifyTitle" duration-ms="13525" started-at="2018-07-25T05:51:05Z" finished-at="2018-07-25T05:51:18Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="verifyTitle" duration-ms="9101" started-at="2018-07-25T06:14:09Z" finished-at="2018-07-25T06:14:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="tearDownAfter" is-config="true" duration-ms="145" started-at="2018-07-25T05:51:18Z" finished-at="2018-07-25T05:51:19Z">
+        <test-method status="PASS" signature="tearDownAfter()[pri:0, instance:com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest@4a7dd4]" name="tearDownAfter" is-config="true" duration-ms="130" started-at="2018-07-25T06:14:18Z" finished-at="2018-07-25T06:14:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfter -->

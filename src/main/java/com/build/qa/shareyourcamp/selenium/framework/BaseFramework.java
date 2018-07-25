@@ -156,7 +156,8 @@ public abstract class BaseFramework {
 	@AfterMethod
 	public void tearDownAfter() throws Exception {
 		try{
-		driver.close();		
+		driver.close();	
+		Runtime.getRuntime().exec("taskkill /f /im opera.exe");
 		}catch(Exception e){
 			e.printStackTrace();
 		}
