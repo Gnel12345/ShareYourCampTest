@@ -90,7 +90,7 @@ public class ShareYourCampTest extends BaseFramework{
 		//report.endTest(extentlogger);
 		//report.flush();
 		tearDownAfter();
-		AfterTest();
+		
 		
 	}
 }
