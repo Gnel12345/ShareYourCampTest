@@ -154,10 +154,12 @@ public abstract class BaseFramework {
 	}
 
 	@AfterMethod
-	public void tearDownAfter() {
-		
-		driver.quit();
-		driver = null;
+	public void tearDownAfter() throws Exception {
+		try{
+		driver.close();		
+		}catch(Exception e){
+			e.printStackTrace();
+		}
 		
 	}
 	
