@@ -1,24 +1,41 @@
 package com.build.qa.shareyourcamp.selenium.framework;
 
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+
+import com.beust.jcommander.Parameter;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 import org.testng.annotations.BeforeClass;
+
+import java.awt.AWTException;
+import java.awt.Image;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import javax.imageio.ImageIO;
+
 import org.assertj.core.api.JUnitSoftAssertions;
 import org.junit.Rule;
+
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -27,6 +44,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
@@ -42,6 +60,11 @@ import org.openqa.selenium.support.ui.Wait;
 public abstract class BaseFramework {
 	protected WebDriver driver;
 	protected Wait<WebDriver> wait;
+	protected static Robot rb;
+	protected static Rectangle rec;
+	protected static BufferedImage screenshot;
+	protected static ImageIO passScreenshot;
+	
 	
 	
 	
@@ -60,7 +83,7 @@ public abstract class BaseFramework {
 	
 	
 	@BeforeClass
-	public static void beforeClass() throws IOException {
+	public static void beforeClass() throws IOException, AWTException {
 		configuration = new Properties();
 		FileInputStream input;
 
@@ -68,12 +91,19 @@ public abstract class BaseFramework {
 		input = new FileInputStream(new File(CONFIG_FILE));
 		configuration.loadFromXML(input);
 		input.close();
+		
+        rb = new Robot();
+		
+		rec = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		
+		
+		
 	}
-	@Parameters("browser")
-	@BeforeMethod
-	@SuppressWarnings({ "deprecation", "rawtypes" })
 	
-	public void setUpBefore(String browser) throws MalformedURLException  {
+	@Parameters({"browser"})
+	@BeforeMethod
+	@SuppressWarnings({ "deprecation", "rawtypes" })	
+	public void setUpBefore(@Optional("chrome")String browser) throws MalformedURLException  {
 		DesiredCapabilities capabilities;
 		// Which driver to use? 
 		if (browser.equalsIgnoreCase("chrome")){
@@ -91,7 +121,7 @@ public abstract class BaseFramework {
 			File pathToBinary = new File("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 			FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
 			FirefoxProfile firefoxProfile = new FirefoxProfile();
-			firefoxProfile.setPreference("dom.webnotifications.enabled", false);
+			//firefoxProfile.setPreference("dom.webnotifications.enabled", false);
 		 	driver = new FirefoxDriver(ffBinary);
 			
 		}if (browser.equalsIgnoreCase("ie")){
@@ -108,7 +138,11 @@ public abstract class BaseFramework {
 						
 			driver = new OperaDriver(op);
 			
-		}if (Android.equalsIgnoreCase(configuration.getProperty("BROWSER"))){
+		}if(browser.equalsIgnoreCase("unitbrowser")){
+			driver = new HtmlUnitDriver();
+		}
+		
+		if (Android.equalsIgnoreCase(configuration.getProperty("BROWSER"))){
 			// Create object of  DesiredCapabilities class and specify android platform
 			DesiredCapabilities androidCapabilities=DesiredCapabilities.android();
 			 
@@ -153,11 +187,32 @@ public abstract class BaseFramework {
 	protected String getConfiguration(String config) { 
 		return configuration.getProperty(config);
 	}
+	
+	protected void PassedScreenShot() throws IOException {
+		screenshot = rb.createScreenCapture(rec); 
+		passScreenshot.write(screenshot, "JPEG", new File(utilities.ObjectRepositiory.Pass +timestamp()+ utilities.ObjectRepositiory.Format));	
+		
+	}
+	
+	public void failedScreenshot() throws IOException {
+		screenshot = rb.createScreenCapture(rec); 
+		passScreenshot.write(screenshot, "JPEG", new File(utilities.ObjectRepositiory.Fail+timestamp()+utilities.ObjectRepositiory.Format));
+		
+	}
+	
+	public static  String timestamp() {
+	    return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
+	}
+	
+	
+		
+	
+	
 
-	@AfterMethod
+	/*@AfterMethod
 	public void tearDownAfter() throws Exception {
 		try{
-		driver.close();	
+		driver.quit();	
 		Runtime.getRuntime().exec("taskkill /f /im opera.exe");
 		}catch(Exception e){
 			e.printStackTrace();
@@ -166,11 +221,8 @@ public abstract class BaseFramework {
 		
 		
 		
-	}
-	@AfterClass
-	public void AfterTest() throws Exception{
-		driver = null;
-	}
+	}*/
+	
 	
 	
 	

@@ -1,6 +1,10 @@
 package utilities;
 
-public class ObjectRepositiory {
+import org.apache.bcel.classfile.Constant;
+
+import com.build.qa.shareyourcamp.selenium.framework.BaseFramework;
+
+public class ObjectRepositiory extends BaseFramework{
 	//Landing Page Objects
 public static final String LandingPageButton = "#landing-header > a";
 public static final String LandingPageTitle = "body > nav > div > div.navbar-header > a";
@@ -22,5 +26,13 @@ public static final String LoginUser = "body > form > input[type=text]:nth-child
 public static final String LoginPass="body > form > input[type=password]:nth-child(2)";
 public static final String LoginButton = "body > form > input[type=submit]:nth-child(3)";
 public static final String SignUp = "signUp";
+
+//Screenshot Format\
+public static final String Format = ".jpeg";
+//Passed ScreenScreenshot file
+public static final String Pass = "test-output/PassedTests/";
+
+//Failed ScreenShot File
+public static final String Fail = "test-output/FailedTests/";
 
 }

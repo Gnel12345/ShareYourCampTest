@@ -7,6 +7,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<url>http://maven.apache.org</url>
 	<dependencyManagement>
 		<dependencies>
 <dependency>
@@ -14,36 +15,90 @@
     <artifactId>freemarker</artifactId>
     <version>2.3.23</version>
 </dependency>		
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 <dependency>
     <groupId>com.google.code.gson</groupId>
     <artifactId>gson</artifactId>
     <version>2.8.5</version>
 </dependency>
+
+
+
+
+
+
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
     <version>3.1.0</version>
     <scope>test</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
-    <version>3.1.5</version>
-    <scope>provided</scope>
+    <version>3.0.6</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpmime</artifactId>
+    <version>4.5.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongodb-driver</artifactId>
+    <version>3.3.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.mongodb/bson -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>bson</artifactId>
+    <version>3.3.0</version>
+</dependency>
+
+
+<dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.6</version>
+    </dependency> 
+<dependency>
+<groupId>org.apache.poi</groupId>
+	<artifactId>poi</artifactId>
+	<version>3.10-FINAL</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi-ooxml</artifactId>
+	<version>3.10-FINAL</version>
+</dependency>
+    
+
+    
+
+   
+   
 
 
 
 		<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.11.0</version>
+    <version>3.4.0</version>
 </dependency>
 			<dependency>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18</version>
-			</dependency>
+				</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
@@ -99,31 +154,33 @@
 		
 	</dependencies>
 	<build>
-	<resources>
-	<resource>
-        <directory>src/test/resources</directory>
-        <filtering>true</filtering>
-      </resource>
-      </resources>
+	
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.7.0</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>1.4.1</version>
+        <configuration>
+            <rules><dependencyConvergence/></rules>
+        </configuration>
+    </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.0</version>
-				<configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
+				<configuration>          
+          <systemProperties>
+            <property>
+              <name>browserType</name>
+              <value>chrome</value>
+            </property>
+            <property>
+              <name>shareyourcamp</name>
+              <value>https://shareyourcamp.herokuapp.com/</value>
+            </property>
+          </systemProperties>
         </configuration>
+       
 			</plugin>
 		</plugins>
 	</build>

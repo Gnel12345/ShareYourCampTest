@@ -7,12 +7,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Wait;
 
-
+import com.build.qa.shareyourcamp.selenium.framework.BaseFramework;
 import com.build.qa.shareyourcamp.selenium.pageobjects.BasePage;
-
 import com.build.qa.shareyourcamp.selenium.pageobjects.landingpage.LandingPage;
 
-import utilities.ObjectRepositiory;
 
 
 public class LandingPage extends BasePage {
@@ -45,12 +43,13 @@ public class LandingPage extends BasePage {
 		
 		try{
 		return driver.findElement(LandingPageButton); 
+		
 		}catch(Exception e ){
-			
-			
+			failedScreenshot();	
 			throw e;
 		}
 	}
+	
 	
 	public WebElement onTitle() throws Exception{
 		try 
@@ -59,7 +58,7 @@ public class LandingPage extends BasePage {
 		}
 		catch(Exception e){
 			
-			
+			failedScreenshot();
 			throw e;
 		}
 		}
@@ -68,6 +67,7 @@ public class LandingPage extends BasePage {
 		try{
 			return driver.findElement(SignUp);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 		}
 		
@@ -77,6 +77,7 @@ public class LandingPage extends BasePage {
 		try{
 			return driver.findElement(Login);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 		}
 		
@@ -86,6 +87,7 @@ public class LandingPage extends BasePage {
 		try{
 			return driver.findElement(LoginText);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 		}
 	}
@@ -94,6 +96,7 @@ public class LandingPage extends BasePage {
 		try{
 			return driver.findElement(addCampground);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 		} 
 		
@@ -102,6 +105,7 @@ public class LandingPage extends BasePage {
 		try{
 			return driver.findElement(Campgroundsbtn);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 		}
 	}
@@ -110,10 +114,18 @@ public class LandingPage extends BasePage {
 		
 		return driver.findElement(Campgrounds2nd);
 		}catch(Exception e){
-			
+			failedScreenshot();
 			throw e;
 		}
 		
+	}
+	public WebElement onSignUpPageButton() throws Exception {
+		try {
+			return driver.findElement(SignUp);
+		}catch(Exception e) {
+			failedScreenshot();
+			throw e;
+		}
 	}
 		
 	}

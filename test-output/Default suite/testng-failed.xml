@@ -6,8 +6,10 @@
       <class name="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest">
         <methods>
           <include name="tearDownAfter"/>
+          <include name="verifyDropDown"/>
           <include name="beforeClass"/>
-          <include name="setData" invocation-numbers="0 1 2"/>
+          <include name="verifyTitle"/>
+          <include name="navigateToLandingPage"/>
           <include name="setUpBefore"/>
         </methods>
       </class> <!-- com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest -->

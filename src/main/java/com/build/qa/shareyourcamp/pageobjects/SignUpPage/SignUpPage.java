@@ -24,6 +24,7 @@ public class SignUpPage extends BasePage{
 		try{
 			return driver.findElement(UserNameTextBox);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 			
 		}
@@ -32,6 +33,7 @@ public class SignUpPage extends BasePage{
 		try{
 			return driver.findElement(PasswordTextBox);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 		}
 	}
@@ -39,6 +41,7 @@ public class SignUpPage extends BasePage{
 		try{
 			return driver.findElement(SignUpButton);
 		}catch(Exception e){
+			failedScreenshot();
 			throw e;
 		}
 	}

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">4 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods,   12 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="navigateToLandingPage">navigateToLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,57 +116,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="navigateToLandingPage">navigateToLandingPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="navigateToLandingPage">navigateToLandingPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="navigateToLandingPage">navigateToLandingPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="navigateToLandingPage">navigateToLandingPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="verifyDropDown">verifyDropDown</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="verifyDropDown">verifyDropDown</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="verifyDropDown">verifyDropDown</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="verifyDropDown">verifyDropDown</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -172,9 +136,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -183,76 +147,31 @@
                   <a name="navigateToLandingPage">
                   </a> <!-- navigateToLandingPage -->
                   <span class="method-name">navigateToLandingPage</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: freemarker/template/TemplateModelException
+	at com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest.navigateToLandingPage(ShareYourCampTest.java:48)
+Caused by: java.lang.ClassNotFoundException: freemarker.template.TemplateModelException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigateToLandingPage">
-                  </a> <!-- navigateToLandingPage -->
-                  <span class="method-name">navigateToLandingPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigateToLandingPage">
-                  </a> <!-- navigateToLandingPage -->
-                  <span class="method-name">navigateToLandingPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigateToLandingPage">
-                  </a> <!-- navigateToLandingPage -->
-                  <span class="method-name">navigateToLandingPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="verifyDropDown">
                   </a> <!-- verifyDropDown -->
                   <span class="method-name">verifyDropDown</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDropDown">
-                  </a> <!-- verifyDropDown -->
-                  <span class="method-name">verifyDropDown</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDropDown">
-                  </a> <!-- verifyDropDown -->
-                  <span class="method-name">verifyDropDown</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDropDown">
-                  </a> <!-- verifyDropDown -->
-                  <span class="method-name">verifyDropDown</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTitle">
-                  </a> <!-- verifyTitle -->
-                  <span class="method-name">verifyTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTitle">
-                  </a> <!-- verifyTitle -->
-                  <span class="method-name">verifyTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTitle">
-                  </a> <!-- verifyTitle -->
-                  <span class="method-name">verifyTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -274,34 +193,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.framework.BaseFramework&quot;/&gt;
       &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.framework.BaseFramework&quot;/&gt;
-      &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;IETest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.framework.BaseFramework&quot;/&gt;
-      &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- IETest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;OperaTest&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;opera&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.framework.BaseFramework&quot;/&gt;
-      &lt;class name=&quot;com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- OperaTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -313,16 +210,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ChromeTest (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">FirefoxTest (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">IETest (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">OperaTest (2 classes)</span>
+                <span class="test-name">ChromeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -348,60 +236,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'navigateToLandingPage')
+data.setCell(0, 1, 'verifyTitle')
 data.setCell(0, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(0, 3, 23811);
+data.setCell(0, 3, 12760);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'navigateToLandingPage')
+data.setCell(1, 1, 'verifyDropDown')
 data.setCell(1, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(1, 3, 15499);
+data.setCell(1, 3, 11623);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyDropDown')
+data.setCell(2, 1, 'navigateToLandingPage')
 data.setCell(2, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(2, 3, 14042);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyDropDown')
-data.setCell(3, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(3, 3, 13485);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyTitle')
-data.setCell(4, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(4, 3, 12274);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyTitle')
-data.setCell(5, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(5, 3, 11459);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyTitle')
-data.setCell(6, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(6, 3, 11417);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'navigateToLandingPage')
-data.setCell(7, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(7, 3, 10630);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyDropDown')
-data.setCell(8, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(8, 3, 10543);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'navigateToLandingPage')
-data.setCell(9, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(9, 3, 9657);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyTitle')
-data.setCell(10, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(10, 3, 9101);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyDropDown')
-data.setCell(11, 2, 'com.build.qa.shareyourcamp.selenium.tests.ShareYourCampTest')
-data.setCell(11, 3, 8567);
+data.setCell(2, 3, 43);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -434,160 +286,30 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBefore(chrome)</span>
-                <span class="method-start">313 ms</span>
+                <span class="method-start">1327 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">navigateToLandingPage</span>
-                <span class="method-start">8643 ms</span>
+                <span class="method-start">9502 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">18307 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBefore(chrome)</span>
-                <span class="method-start">18582 ms</span>
+                <span class="method-start">9567 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDropDown</span>
-                <span class="method-start">22391 ms</span>
+                <span class="method-start">12591 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">32936 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpBefore(chrome)</span>
-                <span class="method-start">33050 ms</span>
+                <span class="method-start">24217 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTitle</span>
-                <span class="method-start">36266 ms</span>
+                <span class="method-start">26754 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">47728 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">47955 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(firefox)</span>
-                <span class="method-start">47962 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">navigateToLandingPage</span>
-                <span class="method-start">57599 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">81413 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(firefox)</span>
-                <span class="method-start">81446 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyDropDown</span>
-                <span class="method-start">90028 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">103516 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(firefox)</span>
-                <span class="method-start">103540 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyTitle</span>
-                <span class="method-start">112743 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">125020 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">125052 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(ie)</span>
-                <span class="method-start">125059 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">navigateToLandingPage</span>
-                <span class="method-start">128831 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">139466 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(ie)</span>
-                <span class="method-start">139561 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyDropDown</span>
-                <span class="method-start">143422 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">157470 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(ie)</span>
-                <span class="method-start">157548 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyTitle</span>
-                <span class="method-start">160677 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">172098 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">172262 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(opera)</span>
-                <span class="method-start">172276 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">navigateToLandingPage</span>
-                <span class="method-start">176306 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">191807 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(opera)</span>
-                <span class="method-start">191970 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyDropDown</span>
-                <span class="method-start">194051 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">202619 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBefore(opera)</span>
-                <span class="method-start">202645 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyTitle</span>
-                <span class="method-start">206011 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownAfter</span>
-                <span class="method-start">215128 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
